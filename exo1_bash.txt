@@ -1,0 +1,213 @@
+Last login: Wed Oct  8 13:09:22 on console
+amedbakayoko@MacBook-Air-de-Amed ~ % git clone git@github.com:amd1-7/Amed-Bakayoko.git                                     
+Cloning into 'Amed-Bakayoko'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 46 (delta 12), reused 32 (delta 5), pack-reused 0 (from 0)
+Receiving objects: 100% (46/46), 25.63 KiB | 1.51 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+amedbakayoko@MacBook-Air-de-Amed ~ % ls
+Amed-Bakayoko				Games
+Applications				Library
+B-PRE-100-PAR-1-1-wadingpool-100	Movies
+Desktop					Music
+Documents				Pictures
+Downloads				Public
+amedbakayoko@MacBook-Air-de-Amed ~ % pwd                                    
+/Users/amedbakayoko
+amedbakayoko@MacBook-Air-de-Amed ~ % cd "/Users/amedbakayoko/Desktop/Amed-Bakayoko/"
+cd: no such file or directory: /Users/amedbakayoko/Desktop/Amed-Bakayoko/
+amedbakayoko@MacBook-Air-de-Amed ~ % "/Users/amedbakayoko/Desktop/Amed-Bakayok 
+dquote> "                                              
+zsh: no such file or directory: /Users/amedbakayoko/Desktop/Amed-Bakayok\n
+amedbakayoko@MacBook-Air-de-Amed ~ % cd Amed-Bakayoko 
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % ls
+assets		exercises	README.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config user.name 
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config user.email
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config amed.17   
+error: invalid key: amed.17
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config user.name "Amed Bakayoko"
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config user.mail "amed.bakayoko@epitech.eu"
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config user.name
+Amed Bakayoko
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config user.mail
+amed.bakayoko@epitech.eu
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git status          
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	exercises/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % cp assets/modele_profile.md profile.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	exercises/.DS_Store
+	profile.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git add profile.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git commit -m 'Actualisation'
+[main 20d1728] Actualisation
+ Committer: Amed Bakayoko <amedbakayoko@MacBook-Air-de-Amed.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
+ create mode 100644 profile.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git config --global --edit
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git add profile.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git commit -m 'Actualisation'
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	exercises/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git add profile.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git push          
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 663 bytes | 663.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:amd1-7/Amed-Bakayoko.git
+   896dc35..20d1728  main -> main
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % ls
+assets		exercises	profile.md	README.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	exercises/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git add --all     
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git commit -m 'Actualisation'
+[main fef60f3] Actualisation
+ Committer: Amed Bakayoko <amedbakayoko@MacBook-Air-de-Amed.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 exercises/.DS_Store
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git push                     
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.35 KiB | 1.35 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:amd1-7/Amed-Bakayoko.git
+   20d1728..fef60f3  main -> main
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % touch note.md      
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git add notes.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git commit -m 'Notes'        
+[main 4202a12] Notes
+ Committer: Amed Bakayoko <amedbakayoko@MacBook-Air-de-Amed.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+)
+ create mode 100644 notes.md
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git push             
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 496 bytes | 496.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:amd1-7/Amed-Bakayoko.git
+   fef60f3..4202a12  main -> main
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git diff
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % touch testrv.txt
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git add testrv.txt 
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git commit -m 'test' 
+[main da1a9db] test
+ Committer: Amed Bakayoko <amedbakayoko@MacBook-Air-de-Amed.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testrv.txt
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git push            
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 282 bytes | 282.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:amd1-7/Amed-Bakayoko.git
+   4202a12..da1a9db  main -> main
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git rm testrv.txt 
+rm 'testrv.txt'
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git tastus       
+git: 'tastus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    testrv.txt
+
+amedbakayoko@MacBook-Air-de-Amed Amed-Bakayoko % 
