@@ -27,4 +27,13 @@ I am intrested in programming and learning new technologies. This is my first Gi
 ---
 
 *This profile was created as part of the Git Basics Workshop.*
+``markdown
 
+``markdown
+
+## Technical Skills
+
+- **Languages:** Python, JavaScript
+- **Tools:** Git, GitHub, VS Code
+- **Concepts:** Version control, Clean code
+```
